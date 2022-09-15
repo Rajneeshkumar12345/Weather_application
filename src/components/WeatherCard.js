@@ -81,7 +81,7 @@ const WeatherCard = ({tempInfo}) => {
                 <p><i className={'wi wi-strong-wind'}></i></p>
                 <p className='extra-info-leftside'>
                     {tempInfo.speed} <br/>
-                    Speed
+                    Speed (km/h)
                 </p>
             </div>
         </div>

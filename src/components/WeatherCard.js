@@ -92,3 +92,4 @@ const WeatherCard = ({tempInfo}) => {
 }
 
 export default WeatherCard
+

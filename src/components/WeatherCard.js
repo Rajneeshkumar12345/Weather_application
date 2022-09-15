@@ -32,7 +32,7 @@ const WeatherCard = ({tempInfo}) => {
     }, [tempInfo.weathermood])
   return (
     <>
-    {/* TEMP CARD */}
+   
    <article className='widget'>
     <div className='weatherIcon'>
         <i className={`wi ${weatherIcon}`}></i>
@@ -49,7 +49,7 @@ const WeatherCard = ({tempInfo}) => {
     
     <div className='date'> {new Date().toLocaleString()}</div>
     
-    {/* our 4colomn section */}
+   
     <div className='extra-temp'>
         <div className='temp-info-minmax'>
             <div className='two-sided-section'>
@@ -63,7 +63,7 @@ const WeatherCard = ({tempInfo}) => {
                 <p><i className={'wi wi-humidity'}></i></p>
                 <p className='extra-info-leftside'>
                     {tempInfo.humidity} <br/>
-                    Humidity
+                    Humidity(%)
                 </p>
             </div>
         </div>
